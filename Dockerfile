@@ -11,5 +11,4 @@ RUN yarn
 # Bundle app source
 COPY . /usr/src/app
 
-EXPOSE 8080
 CMD [ "yarn", "start" ]
